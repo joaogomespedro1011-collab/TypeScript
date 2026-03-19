@@ -1,4 +1,4 @@
-const BASE_URL = " ";
+const BASE_URL = "https://crudcrud.com/api/15a312b2aaca4dfd85305ed0a27f78ca/books";
 
 export const getBooks = async () => {
   const res = await fetch(BASE_URL);
